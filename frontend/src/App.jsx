@@ -23,7 +23,7 @@ export default function App() {
             className="bg-zinc-900 rounded-xl overflow-hidden shadow-lg"
           >
             <img
-              src={`http://127.0.0.1:8000${post.image}`}
+              src={post.image}
               className="w-full h-64 object-cover"
             />
 
